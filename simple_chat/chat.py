@@ -6,6 +6,8 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPEN_AI_KEY"))
 
 message = input("What's on your mind today?\n")
+
+#Messaging
 while(message!=""):
     response = client.responses.create(
         model="gpt-5-nano",
