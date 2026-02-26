@@ -17,7 +17,7 @@ with cols[0]:
        theme="monokai",
        key="vscode" 
     )
-    #code = st.text_input("",label_visibility="collapsed") #Hide label
+    #code = st.text_input("",label_visibility="collapsed") Hide label
 with cols[1]: 
     st.markdown("<p style='text-align: center;'><b>Start</b></p>",unsafe_allow_html=True)
     runCode = st.button("Run", use_container_width = True)
